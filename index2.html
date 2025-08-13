@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Professional Portfolio</title>
+    <script src="https://cdn.tailwindcss.com/3.4.0"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .gradient-bg {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        }
+        .card-hover {
+            transition: all 0.3s ease;
+        }
+        .card-hover:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+        }
+        .typing {
+            border-right: 2px solid #667eea;
+            animation: blink 1s infinite;
+        }
+        @keyframes blink {
+            0%, 50% { border-right-color: transparent; }
+            51%, 100% { border-right-color: #667eea; }
+        }
+        .scroll-smooth {
+            scroll-behavior: smooth;
+        }
+        .section-reveal {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: all 0.6s ease;
+        }
+        .section-reveal.revealed {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800 scroll-smooth">
+    <!-- Navigation -->
+    <nav class="fixed top-0 w-full bg-white/95 backdrop-blur-sm shadow-lg z-50">
+        <div class="container mx-auto px-6 py-4">
+            <div class="flex justify-between items-center">
+                <div class="text-2xl font-bold text-gray-800">Your Name</div>
+                <div class="hidden md:flex space-x-8">
+                    <a href="#home" class="hover:text-purple-600 transition-colors">Home</a>
+                    <a href="#about" class="hover:text-purple-600 transition-colors">About</a>
+                    <a href="#experience" class="hover:text-purple-600 transition-colors">Experience</a>
+                    <a href="#projects" class="hover:text-purple-600 transition-colors">Projects</a>
+                    <a href="#achievements" class="hover:text-purple-600 transition-colors">Achievements</a>
+                    <a href="#contact" class="hover:text-purple-600 transition-colors">Contact</a>
+                </div>
+                <button id="mobile-menu-btn" class="md:hidden">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+            <div id="mobile-menu" class="hidden md:hidden mt-4 space-y-2">
+                <a href="#home" class="block hover:text-purple-600 transition-colors">Home</a>
+                <a href="#about" class="block hover:text-purple-600 transition-colors">About</a>
+                <a href="#experience" class="block hover:text-purple-600 transition-colors">Experience</a>
+                <a href="#projects" class="block hover:text-purple-600 transition-colors">Projects</a>
+                <a href="#achievements" class="block hover:text-purple-600 transition-colors">Achievements</a>
+                <a href="#contact" class="block hover:text-purple-600 transition-colors">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="min-h-screen gradient-bg flex items-center justify-center">
+        <div class="container mx-auto px-6 py-20 text-center text-white">
+            <div class="mb-8">
+                <img src="https://via.placeholder.com/200x200/667eea/ffffff?text=Your+Photo" 
+                     alt="Your Name" 
+                     class="w-48 h-48 rounded-full mx-auto border-4 border-white shadow-2xl object-cover mb-8">
+            </div>
+            <h1 class="text-5xl md:text-7xl font-bold mb-6">Your Name</h1>
+            <p class="text-xl md:text-2xl mb-8 typing" id="typing-text">Full Stack Developer</p>
+            <p class="text-lg mb-10 max-w-2xl mx-auto">
+                Passionate software developer with expertise in modern web technologies, 
+                mobile applications, and innovative solutions for global clients.
+            </p>
+            <div class="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-6">
+                <a href="#contact" class="bg-white text-purple-600 px-8 py-3 rounded-full font-semibold hover:bg-gray-100 transition-colors">
+                    Get In Touch
+                </a>
+                <a href="#about" class="border-2 border-white text-white px-8 py-3 rounded-full font-semibold hover:bg-white hover:text-purple-600 transition-colors">
+                    Learn More
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 section-reveal">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold mb-4">About Me</h2>
+                <div class="w-24 h-1 bg-purple-600 mx-auto"></div>
+            </div>
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div>
+                    <h3 class="text-2xl font-semibold mb-6">Professional Summary</h3>
+                    <p class="text-gray-600 mb-6 leading-relaxed">
+                        With over X years of experience in software development, I specialize in creating 
+                        robust, scalable applications using cutting-edge technologies. My passion lies in 
+                        solving complex problems and delivering exceptional user experiences.
+                    </p>
+                    <div class="grid grid-cols-2 gap-4">
+                        <div>
+                            <h4 class="font-semibold text-purple-600">Education</h4>
+                            <p class="text-gray-600">Master's in Computer Science</p>
+                            <p class="text-gray-600">University Name (Year)</p>
+                        </div>
+                        <div>
+                            <h4 class="font-semibold text-purple-600">Location</h4>
+                            <p class="text-gray-600">Your City, Country</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-white rounded-lg shadow-xl p-8">
+                    <h3 class="text-2xl font-semibold mb-6">Technical Skills</h3>
+                    <div class="space-y-4">
+                        <div>
+                            <div class="flex justify-between mb-2">
+                                <span>JavaScript/TypeScript</span>
+                                <span>95%</span>
+                            </div>
+                            <div class="w-full bg-gray-200 rounded-full h-2">
+                                <div class="bg-purple-600 h-2 rounded-full" style="width: 95%"></div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="flex justify-between mb-2">
+                                <span>React/Next.js</span>
+                                <span>90%</span>
+                            </div>
+                            <div class="w-full bg-gray-200 rounded-full h-2">
+                                <div class="bg-purple-600 h-2 rounded-full" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="flex justify-between mb-2">
+                                <span>Node.js</span>
+                                <span>85%</span>
+                            </div>
+                            <div class="w-full bg-gray-200 rounded-full h-2">
+                                <div class="bg-purple-600 h-2 rounded-full" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="flex justify-between mb-2">
+                                <span>Mobile Development</span>
+                                <span>80%</span>
+                            </div>
+                            <div class="w-full bg-gray-200 rounded-full h-2">
+                                <div class="bg-purple-600 h-2 rounded-full" style="width: 80%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="py-20 bg-white section-reveal">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold mb-4">Work Experience</h2>
+                <div class="w-24 h-1 bg-purple-600 mx-auto"></div>
+            </div>
+            <div class="max-w-4xl mx-auto">
+                <div class="relative">
+                    <div class="absolute left-1/2 transform -translate-x-1/2 w-1 h-full bg-purple-200"></div>
+                    
+                    <div class="mb-12 flex items-center">
+                        <div class="flex-1 pr-8 text-right">
+                            <div class="bg-gray-50 p-6 rounded-lg shadow-md card-hover">
+                                <h3 class="text-xl font-semibold text-purple-600">Senior Full Stack Developer</h3>
+                                <p class="text-gray-600 mb-2">Company Name</p>
+                                <p class="text-sm text-gray-500 mb-4">2022 - Present</p>
+                                <p class="text-gray-700">
+                                    Led development of multiple high-impact projects, mentored junior developers, 
+                                    and implemented best practices across the development team.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="w-4 h-4 bg-purple-600 rounded-full relative z-10"></div>
+                        <div class="flex-1 pl-8"></div>
+                    </div>
+
+                    <div class="mb-12 flex items-center">
+                        <div class="flex-1 pr-8"></div>
+                        <div class="w-4 h-4 bg-purple-600 rounded-full relative z-10"></div>
+                        <div class="flex-1 pl-8">
+                            <div class="bg-gray-50 p-6 rounded-lg shadow-md card-hover">
+                                <h3 class="text-xl font-semibold text-purple-600">Full Stack Developer</h3>
+                                <p class="text-gray-600 mb-2">Previous Company</p>
+                                <p class="text-sm text-gray-500 mb-4">2019 - 2022</p>
+                                <p class="text-gray-700">
+                                    Developed and maintained web applications using modern frameworks, 
+                                    collaborated with cross-functional teams to deliver quality solutions.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mb-12 flex items-center">
+                        <div class="flex-1 pr-8 text-right">
+                            <div class="bg-gray-50 p-6 rounded-lg shadow-md card-hover">
+                                <h3 class="text-xl font-semibold text-purple-600">Software Developer</h3>
+                                <p class="text-gray-600 mb-2">First Company</p>
+                                <p class="text-sm text-gray-500 mb-4">2017 - 2019</p>
+                                <p class="text-gray-700">
+                                    Started career developing desktop applications and web services, 
+                                    gained experience in multiple programming languages and frameworks.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="w-4 h-4 bg-purple-600 rounded-full relative z-10"></div>
+                        <div class="flex-1 pl-8"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-20 section-reveal">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold mb-4">Applications Developed</h2>
+                <div class="w-24 h-1 bg-purple-600 mx-auto"></div>
+            </div>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-white rounded-lg shadow-xl overflow-hidden card-hover">
+                    <div class="h-48 bg-gradient-to-r from-purple-400 to-blue-500"></div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-3">E-Commerce Platform</h3>
+                        <p class="text-gray-600 mb-4">
+                            Full-featured e-commerce platform with payment integration, inventory management, 
+                            and admin dashboard.
+                        </p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="px-3 py-1 bg-purple-100 text-purple-600 rounded-full text-sm">React</span>
+                            <span class="px-3 py-1 bg-purple-100 text-purple-600 rounded-full text-sm">Node.js</span>
+                            <span class="px-3 py-1 bg-purple-100 text-purple-600 rounded-full text-sm">MongoDB</span>
+                        </div>
+                        <a href="#" class="text-purple-600 hover:text-purple-800 font-semibold">View Project →</a>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-lg shadow-xl overflow-hidden card-hover">
+                    <div class="h-48 bg-gradient-to-r from-green-400 to-teal-500"></div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-3">Mobile Task Manager</h3>
+                        <p class="text-gray-600 mb-4">
+                            Cross-platform mobile application for task management with real-time sync 
+                            and team collaboration features.
+                        </p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="px-3 py-1 bg-green-100 text-green-600 rounded-full text-sm">React Native</span>
+                            <span class="px-3 py-1 bg-green-100 text-green-600 rounded-full text-sm">Firebase</span>
+                            <span class="px-3 py-1 bg-green-100 text-green-600 rounded-full text-sm">Redux</span>
+                        </div>
+                        <a href="#" class="text-purple-600 hover:text-purple-800 font-semibold">View Project →</a>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-lg shadow-xl overflow-hidden card-hover">
+                    <div class="h-48 bg-gradient-to-r from-orange-400 to-red-500"></div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-3">Analytics Dashboard</h3>
+                        <p class="text-gray-600 mb-4">
+                            Real-time analytics dashboard with interactive charts, data visualization, 
+                            and reporting capabilities.
+                        </p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="px-3 py-1 bg-orange-100 text-orange-600 rounded-full text-sm">Vue.js</span>
+                            <span class="px-3 py-1 bg-orange-100 text-orange-600 rounded-full text-sm">D3.js</span>
+                            <span class="px-3 py-1 bg-orange-100 text-orange-600 rounded-full text-sm">Python</span>
+                        </div>
+                        <a href="#" class="text-purple-600 hover:text-purple-800 font-semibold">View Project →</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section id="achievements" class="py-20 bg-white section-reveal">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold mb-4">Achievements & Certifications</h2>
+                <div class="w-24 h-1 bg-purple-600 mx-auto"></div>
+            </div>
+            <div class="grid md:grid-cols-2 gap-12">
+                <div>
+                    <h3 class="text-2xl font-semibold mb-8 text-purple-600">Professional Certifications</h3>
+                    <div class="space-y-6">
+                        <div class="flex items-start space-x-4">
+                            <div class="w-3 h-3 bg-purple-600 rounded-full mt-2 flex-shrink-0"></div>
+                            <div>
+                                <h4 class="font-semibold">AWS Certified Solutions Architect</h4>
+                                <p class="text-gray-600">Amazon Web Services (2023)</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start space-x-4">
+                            <div class="w-3 h-3 bg-purple-600 rounded-full mt-2 flex-shrink-0"></div>
+                            <div>
+                                <h4 class="font-semibold">Google Cloud Professional Developer</h4>
+                                <p class="text-gray-600">Google Cloud Platform (2022)</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start space-x-4">
+                            <div class="w-3 h-3 bg-purple-600 rounded-full mt-2 flex-shrink-0"></div>
+                            <div>
+                                <h4 class="font-semibold">Microsoft Azure Developer Associate</h4>
+                                <p class="text-gray-600">Microsoft (2022)</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start space-x-4">
+                            <div class="w-3 h-3 bg-purple-600 rounded-full mt-2 flex-shrink-0"></div>
+                            <div>
+                                <h4 class="font-semibold">Certified Kubernetes Administrator</h4>
+                                <p class="text-gray-600">Cloud Native Computing Foundation (2021)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <h3 class="text-2xl font-semibold mb-8 text-purple-600">Intellectual Property Rights</h3>
+                    <div class="space-y-6">
+                        <div class="bg-gray-50 p-6 rounded-lg">
+                            <h4 class="font-semibold mb-2">Smart Task Management System</h4>
+                            <p class="text-gray-600 mb-2">Patent Application #: US123456789</p>
+                            <p class="text-gray-700">AI-powered task prioritization and resource allocation system.</p>
+                        </div>
+                        <div class="bg-gray-50 p-6 rounded-lg">
+                            <h4 class="font-semibold mb-2">Real-time Collaboration Framework</h4>
+                            <p class="text-gray-600 mb-2">Patent Application #: US987654321</p>
+                            <p class="text-gray-700">Innovative approach to real-time document collaboration and sync.</p>
+                        </div>
+                        <div class="bg-gray-50 p-6 rounded-lg">
+                            <h4 class="font-semibold mb-2">Mobile Security SDK</h4>
+                            <p class="text-gray-600 mb-2">Copyright Registration #: TXu002345678</p>
+                            <p class="text-gray-700">Comprehensive security framework for mobile applications.</p>
+                        </div>
+                    </div>
+
+                    <h3 class="text-2xl font-semibold mb-6 mt-12 text-purple-600">Awards & Recognition</h3>
+                    <div class="space-y-4">
+                        <div class="flex items-center space-x-4">
+                            <i class="fas fa-trophy text-yellow-500 w-6 h-6"></i>
+                            <div>
+                                <h4 class="font-semibold">Developer of the Year 2023</h4>
+                                <p class="text-gray-600">Company Recognition Award</p>
+                            </div>
+                        </div>
+                        <div class="flex items-center space-x-4">
+                            <i class="fas fa-star text-yellow-500 w-6 h-6"></i>
+                            <div>
+                                <h4 class="font-semibold">Innovation Excellence Award</h4>
+                                <p class="text-gray-600">Tech Industry Conference 2022</p>
+                            </div>
+                        </div>
+                        <div class="flex items-center space-x-4">
+                            <i class="fas fa-award text-yellow-500 w-6 h-6"></i>
+                            <div>
+                                <h4 class="font-semibold">Hackathon Winner</h4>
+                                <p class="text-gray-600">Global Dev Challenge 2021</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 gradient-bg text-white section-reveal">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold mb-4">Get In Touch</h2>
+                <div class="w-24 h-1 bg-white mx-auto"></div>
+                <p class="mt-6 text-xl">Ready to work on your next international project?</p>
+            </div>
+            <div class="max-w-4xl mx-auto grid md:grid-cols-2 gap-12">
+                <div>
+                    <h3 class="text-2xl font-semibold mb-6">Let's Connect</h3>
+                    <div class="space-y-6">
+                        <div class="flex items-center space-x-4">
+                            <i class="fas fa-envelope w-6 h-6"></i>
+                            <span>your.email@example.com</span>
+                        </div>
+                        <div class="flex items-center space-x-4">
+                            <i class="fas fa-phone w-6 h-6"></i>
+                            <span>+1 (555) 123-4567</span>
+                        </div>
+                        <div class="flex items-center space-x-4">
+                            <i class="fas fa-map-marker-alt w-6 h-6"></i>
+                            <span>Your City, Country</span>
+                        </div>
+                        <div class="flex items-center space-x-4">
+                            <i class="fab fa-linkedin w-6 h-6"></i>
+                            <a href="#" class="hover:underline">linkedin.com/in/yourname</a>
+                        </div>
+                        <div class="flex items-center space-x-4">
+                            <i class="fab fa-github w-6 h-6"></i>
+                            <a href="#" class="hover:underline">github.com/yourusername</a>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <form class="space-y-6">
+                        <div>
+                            <input type="text" placeholder="Your Name" 
+                                   class="w-full px-4 py-3 rounded-lg bg-white/20 backdrop-blur-sm text-white placeholder-white/70 border border-white/30 focus:outline-none focus:border-white">
+                        </div>
+                        <div>
+                            <input type="email" placeholder="Your Email" 
+                                   class="w-full px-4 py-3 rounded-lg bg-white/20 backdrop-blur-sm text-white placeholder-white/70 border border-white/30 focus:outline-none focus:border-white">
+                        </div>
+                        <div>
+                            <textarea rows="4" placeholder="Your Message" 
+                                      class="w-full px-4 py-3 rounded-lg bg-white/20 backdrop-blur-sm text-white placeholder-white/70 border border-white/30 focus:outline-none focus:border-white resize-none"></textarea>
+                        </div>
+                        <button type="submit" 
+                                class="w-full bg-white text-purple-600 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-8">
+        <div class="container mx-auto px-6 text-center">
+            <p>&copy; 2025 Your Name. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+        
+        mobileMenuBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        // Typing effect
+        const phrases = ['Full Stack Developer', 'Mobile App Developer', 'Cloud Solutions Architect', 'Innovation Leader'];
+        let phraseIndex = 0;
+        let charIndex = 0;
+        let isDeleting = false;
+        const typingElement = document.getElementById('typing-text');
+
+        function typeText() {
+            const currentPhrase = phrases[phraseIndex];
+            
+            if (isDeleting) {
+                typingElement.textContent = currentPhrase.substring(0, charIndex - 1);
+                charIndex--;
+            } else {
+                typingElement.textContent = currentPhrase.substring(0, charIndex + 1);
+                charIndex++;
+            }
+
+            if (!isDeleting && charIndex === currentPhrase.length) {
+                setTimeout(() => isDeleting = true, 2000);
+            } else if (isDeleting && charIndex === 0) {
+                isDeleting = false;
+                phraseIndex = (phraseIndex + 1) % phrases.length;
+            }
+
+            setTimeout(typeText, isDeleting ? 50 : 100);
+        }
+
+        // Start typing effect
+        setTimeout(typeText, 1000);
+
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                    // Close mobile menu if open
+                    mobileMenu.classList.add('hidden');
+                }
+            });
+        });
+
+        // Reveal sections on scroll
+        const revealSections = document.querySelectorAll('.section-reveal');
+        
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('revealed');
+                }
+            });
+        }, observerOptions);
+
+        revealSections.forEach(section => {
+            observer.observe(section);
+        });
+
+        // Contact form submission
+        document.querySelector('form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            alert('Thank you for your message! I will get back to you soon.');
+            this.reset();
+        });
+
+        // Active navigation highlighting
+        window.addEventListener('scroll', () => {
+            let current = '';
+            const sections = document.querySelectorAll('section');
+            
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                const sectionHeight = section.clientHeight;
+                if (scrollY >= sectionTop - 200) {
+                    current = section.getAttribute('id');
+                }
+            });
+
+            document.querySelectorAll('nav a').forEach(link => {
+                link.classList.remove('text-purple-600');
+                if (link.getAttribute('href') === `#${current}`) {
+                    link.classList.add('text-purple-600');
+                }
+            });
+        });
+    </script>
+</body>
+</html>
