@@ -1100,7 +1100,11 @@
         // Search filter
         if (currentSearch) {
           const searchTerms = projectName + ' ' + technologies + ' ' + category;
+          console.log('Searching for:', currentSearch);
+          console.log('In card:', projectName);
+          console.log('Full search terms:', searchTerms);
           showCard = searchTerms.includes(currentSearch);
+          console.log('Show card:', showCard);
         }
         
         // Category filter

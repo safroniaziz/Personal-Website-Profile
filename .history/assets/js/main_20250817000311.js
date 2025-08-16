@@ -466,8 +466,7 @@
       oneHundredPercent: '100%',
       clientSatisfaction: 'Kepuasan Klien',
       
-      // Testimonials - COMMENTED OUT FOR NOW
-      /*
+      // Testimonials
       testimonials: 'Kata Klien',
       testimonialsDescription: 'Feedback dari klien dan kolega yang puas',
       testimonial1: '"Safroni memberikan pekerjaan yang luar biasa pada sistem informasi pemerintah kami. Perhatiannya terhadap detail dan keahlian teknisnya melebihi ekspektasi kami. Sangat profesional dan dapat diandalkan."',
@@ -479,7 +478,6 @@
       testimonial3: '"Keahlian Safroni dalam pengembangan web sangat luar biasa. Dia menyelesaikan proyek kami tepat waktu dan sesuai anggaran. Saya pasti akan bekerja sama dengannya lagi."',
       client3Name: 'Maria Indah',
       client3Title: 'CEO, Tech Startup',
-      */
       
       // Toast messages
       copiedToClipboard: 'Tersalin ke clipboard!',
@@ -1100,7 +1098,11 @@
         // Search filter
         if (currentSearch) {
           const searchTerms = projectName + ' ' + technologies + ' ' + category;
+          console.log('Searching for:', currentSearch);
+          console.log('In card:', projectName);
+          console.log('Full search terms:', searchTerms);
           showCard = searchTerms.includes(currentSearch);
+          console.log('Show card:', showCard);
         }
         
         // Category filter

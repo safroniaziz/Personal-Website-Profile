@@ -181,21 +181,8 @@
       oneHundredPercent: '100%',
       clientSatisfaction: 'Client Satisfaction',
       
-      // Testimonials - COMMENTED OUT FOR NOW
-      /*
-      testimonials: 'What Clients Say',
-      testimonialsDescription: 'Feedback from satisfied clients and colleagues',
-      testimonial1: '"Safroni delivered exceptional work on our government information system. His attention to detail and technical expertise exceeded our expectations. Highly professional and reliable."',
-      client1Name: 'Dr. Rahman',
-      client1Title: 'Project Manager, Government Agency',
-      testimonial2: '"Working with Safroni was a pleasure. He transformed our outdated system into a modern, efficient platform. His Laravel and Vue.js skills are top-notch."',
-      client2Name: 'Ahmad Sari',
-      client2Title: 'IT Director, University',
-      testimonial3: '"Safroni\'s expertise in web development is outstanding. He delivered our project on time and within budget. I would definitely work with him again."',
-      client3Name: 'Maria Indah',
-      client3Title: 'CEO, Tech Startup',
-      */
 
+      
       // Toast messages
       copiedToClipboard: 'Copied to clipboard!',
       
@@ -466,8 +453,7 @@
       oneHundredPercent: '100%',
       clientSatisfaction: 'Kepuasan Klien',
       
-      // Testimonials - COMMENTED OUT FOR NOW
-      /*
+      // Testimonials
       testimonials: 'Kata Klien',
       testimonialsDescription: 'Feedback dari klien dan kolega yang puas',
       testimonial1: '"Safroni memberikan pekerjaan yang luar biasa pada sistem informasi pemerintah kami. Perhatiannya terhadap detail dan keahlian teknisnya melebihi ekspektasi kami. Sangat profesional dan dapat diandalkan."',
@@ -479,7 +465,6 @@
       testimonial3: '"Keahlian Safroni dalam pengembangan web sangat luar biasa. Dia menyelesaikan proyek kami tepat waktu dan sesuai anggaran. Saya pasti akan bekerja sama dengannya lagi."',
       client3Name: 'Maria Indah',
       client3Title: 'CEO, Tech Startup',
-      */
       
       // Toast messages
       copiedToClipboard: 'Tersalin ke clipboard!',
@@ -575,22 +560,7 @@
       fiftyPlus: '50+',
       projectsCompleted: 'Proyek Selesai',
       oneHundredPercent: '100%',
-      clientSatisfaction: 'Kepuasan Klien',
-      
-      // Testimonials - COMMENTED OUT FOR NOW
-      /*
-      testimonials: 'Kata Klien',
-      testimonialsDescription: 'Feedback dari klien dan kolega yang puas',
-      testimonial1: '"Safroni memberikan pekerjaan yang luar biasa pada sistem informasi pemerintah kami. Perhatiannya terhadap detail dan keahlian teknisnya melebihi ekspektasi kami. Sangat profesional dan dapat diandalkan."',
-      client1Name: 'Dr. Rahman',
-      client1Title: 'Project Manager, Instansi Pemerintah',
-      testimonial2: '"Bekerja dengan Safroni sangat menyenangkan. Dia mengubah sistem lama kami menjadi platform modern yang efisien. Keahlian Laravel dan Vue.js-nya sangat baik."',
-      client2Name: 'Ahmad Sari',
-      client2Title: 'Direktur IT, Universitas',
-      testimonial3: '"Keahlian Safroni dalam pengembangan web sangat luar biasa. Dia menyelesaikan proyek kami tepat waktu dan sesuai anggaran. Saya pasti akan bekerja sama dengannya lagi."',
-      client3Name: 'Maria Indah',
-      client3Title: 'CEO, Tech Startup'
-      */
+      clientSatisfaction: 'Kepuasan Klien'
     }
   };
   
@@ -1100,7 +1070,11 @@
         // Search filter
         if (currentSearch) {
           const searchTerms = projectName + ' ' + technologies + ' ' + category;
+          console.log('Searching for:', currentSearch);
+          console.log('In card:', projectName);
+          console.log('Full search terms:', searchTerms);
           showCard = searchTerms.includes(currentSearch);
+          console.log('Show card:', showCard);
         }
         
         // Category filter
