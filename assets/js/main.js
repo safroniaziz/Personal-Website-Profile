@@ -11,7 +11,7 @@
       // Navigation
       about: 'About',
       experience: 'Experience',
-      applications: 'Applications',
+      applications: 'Portfolio',
       certificates: 'Certificates',
       ipr: 'IPR',
       organizations: 'Organizations',
@@ -21,7 +21,7 @@
       // Hero section
       openToOpportunities: 'Open to international opportunities',
       contactMe: 'Contact Me',
-      viewApplications: 'View Applications',
+      viewApplications: 'View Portfolio',
       basedIn: 'Based in',
       heroDescription: 'Hello! I\'m Safroni Aziz Suprianto, an experienced Web Developer with 6+ years in web development. Currently working as a Software Developer at the Supreme Audit Institution of Indonesia, previously at the University of Bengkulu.',
       
@@ -89,17 +89,27 @@
       ercomDescription: 'Research and technology community for engineering students',
       himatifDescription: 'Student organization for Information Technology major',
       
+      // Missing translations
+      speakerStartupDigitalization: 'Speaker at startup digitalization webinar',
+      universitasBengkulu: 'University of Bengkulu',
+      stateVocationalHighSchool: 'State Vocational High School 1 Kota Bengkulu • 2013–2016',
+      universitasBengkuluPeriod: 'Universitas Bengkulu • 2016–2021',
+      aboutMeDescription: 'Passionate software engineer crafting digital experiences with innovation and precision',
+      workExperienceDescription: 'My professional journey in software engineering and technology',
+      applicationsDescription: 'Selected projects and products I\'ve built with modern technologies',
+      certificatesDescription: 'Professional certifications in technology and development',
+      intellectualPropertyRights: 'Intellectual Property Rights',
+      iprDescription: 'Registered intellectual property rights and innovations',
+      organizationsDescription: 'Organizations, communities, and affiliations throughout my journey',
+      quickLinks: 'Quick Links',
+      linkedin: 'LinkedIn',
+      github: 'GitHub',
+      
       // Projects section
       selectedProjects: 'Selected projects and products I\'ve built with modern technologies',
       viewDetails: 'View Details',
       liveDemo: 'Live Demo →',
       details: 'Details →',
-      remunerationSystem: 'Remuneration Information System',
-      remunerationDescription: 'Information system for managing remuneration of lecturers and educational staff at Poltekkes Kemenkes Bengkulu.',
-      researchSystem: 'Research Information System',
-      researchDescription: 'Information system for managing research and lecturer evaluation at the University of Bengkulu.',
-      communitySystem: 'Community Information System',
-      communityDescription: 'Information system for community services at the Kepahiang District Legislative Council.',
       
       // Footer and other texts
       experiencedWebDeveloper: 'Experienced web developer specializing in Laravel, Vue.js, and government information systems.',
@@ -156,17 +166,135 @@
       copyrightRegistration: 'Copyright Registration',
       aiPoweredDescription: 'Advanced machine learning algorithms for real-time data processing and analysis. This system provides intelligent insights and automated decision-making capabilities for enterprise applications.',
       
+      // WhatsApp (new)
+      whatsapp: 'WhatsApp',
+      chatDirectly: 'Chat me directly',
+      openWhatsApp: 'Open WhatsApp',
+      
+      // Professional CTA and Stats
+      startProject: 'Start a Project',
+      viewPortfolio: 'View Portfolio',
+      sixPlus: '6+',
+      yearsExperience: 'Years Experience',
+      fiftyPlus: '50+',
+      projectsCompleted: 'Projects Completed',
+      oneHundredPercent: '100%',
+      clientSatisfaction: 'Client Satisfaction',
+      
+      // Testimonials
+      testimonials: 'What Clients Say',
+      testimonialsDescription: 'Feedback from satisfied clients and colleagues',
+      testimonial1: '"Safroni delivered exceptional work on our government information system. His attention to detail and technical expertise exceeded our expectations. Highly professional and reliable."',
+      client1Name: 'Dr. Rahman',
+      client1Title: 'Project Manager, Government Agency',
+      testimonial2: '"Working with Safroni was a pleasure. He transformed our outdated system into a modern, efficient platform. His Laravel and Vue.js skills are top-notch."',
+      client2Name: 'Ahmad Sari',
+      client2Title: 'IT Director, University',
+      testimonial3: '"Safroni\'s expertise in web development is outstanding. He delivered our project on time and within budget. I would definitely work with him again."',
+      client3Name: 'Maria Indah',
+      client3Title: 'CEO, Tech Startup',
+      
       // Toast messages
       copiedToClipboard: 'Copied to clipboard!',
       
       // Modal
-      close: 'Close'
+      close: 'Close',
+      
+      // Projects translations
+      featuredProjects: 'Featured Projects',
+      additionalProjects: 'Additional Projects',
+      
+      // Project with images
+      bdaruTitle: 'Digital Museum Balai Adat Rajo Penghulu',
+      bdaruDescription: 'Digital museum system for traditional customs with 3 user roles: admin, manager, and visitor',
+      
+      siamiTitle: 'SIAMI LPMPP UNIB',
+      siamiDescription: 'Internal Quality Audit Information System with 3 user roles: auditee, auditor, and administrator',
+      
+      eberesTitle: 'E-Beres FISIP UNIB',
+      eberesDescription: 'Comprehensive administrative system for letter requests, digital guest book, and course scheduling',
+      
+      koperasiTitle: 'Koperasi Amanah Sejati',
+      koperasiDescription: 'Complete cooperative management system including financial distribution and member profit sharing (SHU)',
+      
+      labagroTitle: 'Lab Agronomi UNIB',
+      labagroDescription: 'Laboratory equipment borrowing system for Agronomy Department, University of Bengkulu',
+      
+      prismaTitle: 'Sistem Informasi Publikasi, Riset dan Pengabdian Kepada Masyarakat',
+      prismaDescription: 'Sistem Informasi Publikasi, Riset dan Pengabdian Kepada Masyarakat with complete proposal workflow and reviewer system',
+      
+      siepelTitle: 'SIEPEL UNIB',
+      siepelDescription: 'Lecturer Performance Evaluation Information System for University of Bengkulu',
+      
+      rumahilmuTitle: 'Adaptif E-Learning Rumah Ilmu',
+      rumahilmuDescription: 'Comprehensive online learning platform with complete educational process management',
+      
+      // Projects without images
+      emarketingTitle: 'E-Marketing Bank Bengkulu',
+      emarketingDescription: 'Digital marketing platform for banking products and services',
+      
+      sahamTitle: 'Saham Seri B Bank Bengkulu',
+      sahamDescription: 'Stock series B management system for Bank Bengkulu',
+      
+      pemiraTitle: 'Pemira UNIB',
+      pemiraDescription: 'Student election system for President and Governor positions at University of Bengkulu',
+      
+      penjadwalanTitle: 'Course Scheduling System',
+      penjadwalanDescription: 'Course scheduling system for Engineering Faculty, University of Bengkulu',
+      
+      sipedemasTitle: 'Sipedemas DPRD Kepahiang',
+      sipedemasDescription: 'Community service information system for Kepahiang District Parliament',
+      
+      sijakTitle: 'Sijak Peluk Kejaksaan Kepahiang',
+      sijakDescription: 'Case management information system for Kepahiang District Attorney\'s Office',
+      
+      remunerasiUnibTitle: 'Sistem Remunerasi Tendik UNIB',
+      remunerasiUnibDescription: 'Remuneration system for educational staff at University of Bengkulu',
+      
+      remunerasiPoltekkesTitle: 'Sistem Remunerasi Poltekkes Kemenkes',
+      remunerasiPoltekkesDescription: 'Remuneration system for Health Polytechnic Ministry of Health Bengkulu',
+      
+      eprofilTitle: 'E-Profil Kabupaten Seluma',
+      eprofilDescription: 'Regional profile information system for Seluma District',
+      
+      simpegTitle: 'SIMPEG MAN IC Bengkulu Tengah',
+      simpegDescription: 'Human resource information system for Islamic Senior High School',
+      
+      sintaTitle: 'Sinta Hormat Polri',
+      sintaDescription: 'Honor system for Indonesian National Police Bengkulu Regional Office',
+      
+      bpkTitle: 'BPK RI Audit Information System',
+      bpkDescription: 'Audit information system for Indonesia Supreme Audit Institution',
+      
+      // Organizations missing keys
+      educationDivisionMember: 'Education Division Member',
+      headOfInformationCommunicationDivision: 'Head of Information and Communication Division',
+      treasurerResearchTechnology: 'Treasurer of Research and Technology',
+      headOfITCommunicationDivision: 'Head of Information Technology and Communication Division',
+      memberOfITCommunicationDivision: 'Member of Information Technology and Communication Division',
+      
+      // WhatsApp translations
+      whatsapp: 'WhatsApp',
+      chatDirectly: 'Chat me directly',
+      openWhatsApp: 'Open WhatsApp',
+      
+      // CTA Buttons
+      startProject: 'Start a Project',
+      viewPortfolio: 'View Portfolio',
+      
+      // Statistics
+      sixPlus: '6+',
+      yearsExperience: 'Years Experience',
+      fiftyPlus: '50+',
+      projectsCompleted: 'Projects Completed',
+      oneHundredPercent: '100%',
+      clientSatisfaction: 'Client Satisfaction'
     },
     id: {
       // Navigation
       about: 'Tentang',
       experience: 'Pengalaman',
-      applications: 'Aplikasi',
+      applications: 'Portfolio',
       certificates: 'Sertifikat',
       ipr: 'HKI',
       organizations: 'Organisasi',
@@ -176,7 +304,7 @@
       // Hero section
       openToOpportunities: 'Terbuka untuk peluang internasional',
       contactMe: 'Hubungi Saya',
-      viewApplications: 'Lihat Aplikasi',
+      viewApplications: 'Lihat Portfolio',
       basedIn: 'Berbasis di',
       heroDescription: 'Halo! Saya Safroni Aziz Suprianto, seorang Web Developer berpengalaman dengan 6+ tahun dalam pengembangan web. Saat ini bekerja sebagai Software Developer di Badan Pemeriksa Keuangan Republik Indonesia, sebelumnya di Universitas Bengkulu.',
       
@@ -205,7 +333,7 @@
       tailwindImplementation: 'Implementasi Tailwind CSS untuk desain UI modern',
       
       // Experience bullet points
-      researchSystem: 'Sistem Informasi Penelitian & Evaluasi Dosen',
+      researchSystem: 'Sistem Informasi Publikasi, Riset dan Pengabdian Kepada Masyarakat',
       remunerationSystem: 'Sistem Informasi Remunerasi Poltekkes',
       shareManagementSystem: 'Sistem Manajemen Saham & Laporan Bank Bengkulu',
       andManyMore: 'Dan masih banyak lagi (dll.)',
@@ -244,17 +372,27 @@
       ercomDescription: 'Komunitas penelitian dan teknologi untuk mahasiswa teknik',
       himatifDescription: 'Organisasi mahasiswa untuk jurusan Teknologi Informasi',
       
+      // Missing translations (Indonesian)
+      speakerStartupDigitalization: 'Pembicara webinar digitalisasi startup',
+      universitasBengkulu: 'Universitas Bengkulu',
+      stateVocationalHighSchool: 'SMKN 1 Kota Bengkulu • 2013–2016',
+      universitasBengkuluPeriod: 'Universitas Bengkulu • 2016–2021',
+      aboutMeDescription: 'Insinyur perangkat lunak yang bersemangat menciptakan pengalaman digital dengan inovasi dan presisi',
+      workExperienceDescription: 'Perjalanan profesional saya dalam rekayasa perangkat lunak dan teknologi',
+      applicationsDescription: 'Proyek dan produk terpilih yang telah saya buat dengan teknologi modern',
+      certificatesDescription: 'Sertifikat profesional dalam teknologi dan pengembangan',
+      intellectualPropertyRights: 'Hak Kekayaan Intelektual',
+      iprDescription: 'Hak kekayaan intelektual terdaftar dan inovasi',
+      organizationsDescription: 'Organisasi, komunitas, dan afiliasi sepanjang perjalanan saya',
+      quickLinks: 'Tautan Cepat',
+      linkedin: 'LinkedIn',
+      github: 'GitHub',
+      
       // Projects section
       selectedProjects: 'Proyek dan produk terpilih yang telah saya buat dengan teknologi modern',
       viewDetails: 'Lihat Detail',
       liveDemo: 'Demo Langsung →',
       details: 'Detail →',
-      remunerationSystem: 'Sistem Informasi Remunerasi',
-      remunerationDescription: 'Sistem informasi untuk mengelola remunerasi dosen dan tenaga kependidikan di Poltekkes Kemenkes Bengkulu.',
-      researchSystem: 'Sistem Informasi Penelitian',
-      researchDescription: 'Sistem informasi untuk mengelola penelitian dan evaluasi dosen di Universitas Bengkulu.',
-      communitySystem: 'Sistem Informasi Masyarakat',
-      communityDescription: 'Sistem informasi untuk layanan masyarakat di Dewan Perwakilan Rakyat Daerah Kabupaten Kepahiang.',
       
       // Footer and other texts
       experiencedWebDeveloper: 'Web developer berpengalaman yang mengkhususkan diri dalam Laravel, Vue.js, dan sistem informasi pemerintah.',
@@ -311,11 +449,129 @@
       copyrightRegistration: 'Pendaftaran Hak Cipta',
       aiPoweredDescription: 'Algoritma machine learning lanjutan untuk pemrosesan dan analisis data real-time. Sistem ini menyediakan wawasan cerdas dan kemampuan pengambilan keputusan otomatis untuk aplikasi perusahaan.',
       
+      // WhatsApp (new)
+      whatsapp: 'WhatsApp',
+      chatDirectly: 'Chat langsung dengan saya',
+      openWhatsApp: 'Buka WhatsApp',
+      
+      // Professional CTA and Stats
+      startProject: 'Mulai Proyek',
+      viewPortfolio: 'Lihat Portfolio',
+      sixPlus: '6+',
+      yearsExperience: 'Tahun Pengalaman',
+      fiftyPlus: '50+',
+      projectsCompleted: 'Proyek Selesai',
+      oneHundredPercent: '100%',
+      clientSatisfaction: 'Kepuasan Klien',
+      
+      // Testimonials
+      testimonials: 'Kata Klien',
+      testimonialsDescription: 'Feedback dari klien dan kolega yang puas',
+      testimonial1: '"Safroni memberikan pekerjaan yang luar biasa pada sistem informasi pemerintah kami. Perhatiannya terhadap detail dan keahlian teknisnya melebihi ekspektasi kami. Sangat profesional dan dapat diandalkan."',
+      client1Name: 'Dr. Rahman',
+      client1Title: 'Project Manager, Instansi Pemerintah',
+      testimonial2: '"Bekerja dengan Safroni sangat menyenangkan. Dia mengubah sistem lama kami menjadi platform modern yang efisien. Keahlian Laravel dan Vue.js-nya sangat baik."',
+      client2Name: 'Ahmad Sari',
+      client2Title: 'Direktur IT, Universitas',
+      testimonial3: '"Keahlian Safroni dalam pengembangan web sangat luar biasa. Dia menyelesaikan proyek kami tepat waktu dan sesuai anggaran. Saya pasti akan bekerja sama dengannya lagi."',
+      client3Name: 'Maria Indah',
+      client3Title: 'CEO, Tech Startup',
+      
       // Toast messages
       copiedToClipboard: 'Tersalin ke clipboard!',
       
       // Modal
-      close: 'Tutup'
+      close: 'Tutup',
+      
+      // Projects translations
+      featuredProjects: 'Proyek Unggulan',
+      additionalProjects: 'Proyek Tambahan',
+      
+      // Project with images
+      bdaruTitle: 'Museum Digital Balai Adat Rajo Penghulu',
+      bdaruDescription: 'Sistem museum digital untuk adat istiadat tradisional dengan 3 peran pengguna: admin, pengelola, dan pengunjung',
+      
+      siamiTitle: 'SIAMI LPMPP UNIB',
+      siamiDescription: 'Sistem Informasi Audit Mutu Internal dengan 3 peran pengguna: auditee, auditor, dan administrator',
+      
+      eberesTitle: 'E-Beres FISIP UNIB',
+      eberesDescription: 'Sistem administrasi lengkap untuk permohonan surat, buku tamu digital, dan penjadwalan mata kuliah',
+      
+      koperasiTitle: 'Koperasi Amanah Sejati',
+      koperasiDescription: 'Sistem manajemen koperasi lengkap termasuk distribusi keuangan dan pembagian SHU anggota koperasi',
+      
+      labagroTitle: 'Lab Agronomi UNIB',
+      labagroDescription: 'Sistem peminjaman alat laboratorium untuk Jurusan Agronomi, Universitas Bengkulu',
+      
+      prismaTitle: 'Sistem Informasi Publikasi, Riset dan Pengabdian Kepada Masyarakat',
+      prismaDescription: 'Sistem Informasi Publikasi, Riset dan Pengabdian Kepada Masyarakat dengan alur proposal dan sistem reviewer lengkap',
+      
+      siepelTitle: 'SIEPEL UNIB',
+      siepelDescription: 'Sistem Informasi Penilaian Kinerja Dosen Universitas Bengkulu',
+      
+      rumahilmuTitle: 'Adaptif E-Learning Rumah Ilmu',
+      rumahilmuDescription: 'Platform pembelajaran online lengkap dengan manajemen proses pembelajaran menyeluruh',
+      
+      // Projects without images
+      emarketingTitle: 'E-Marketing Bank Bengkulu',
+      emarketingDescription: 'Platform pemasaran digital untuk produk dan layanan perbankan',
+      
+      sahamTitle: 'Saham Seri B Bank Bengkulu',
+      sahamDescription: 'Sistem manajemen saham seri B untuk Bank Bengkulu',
+      
+      pemiraTitle: 'Pemira UNIB',
+      pemiraDescription: 'Sistem pemilihan mahasiswa untuk posisi Presiden dan Gubernur Mahasiswa Universitas Bengkulu',
+      
+      penjadwalanTitle: 'Sistem Penjadwalan Mata Kuliah',
+      penjadwalanDescription: 'Sistem penjadwalan mata kuliah untuk Fakultas Teknik, Universitas Bengkulu',
+      
+      sipedemasTitle: 'Sipedemas DPRD Kepahiang',
+      sipedemasDescription: 'Sistem informasi pelayanan masyarakat DPRD Kabupaten Kepahiang',
+      
+      sijakTitle: 'Sijak Peluk Kejaksaan Kepahiang',
+      sijakDescription: 'Sistem informasi manajemen kasus untuk Kejaksaan Negeri Kabupaten Kepahiang',
+      
+      remunerasiUnibTitle: 'Sistem Remunerasi Tendik UNIB',
+      remunerasiUnibDescription: 'Sistem remunerasi untuk tenaga kependidikan Universitas Bengkulu',
+      
+      remunerasiPoltekkesTitle: 'Sistem Remunerasi Poltekkes Kemenkes',
+      remunerasiPoltekkesDescription: 'Sistem remunerasi untuk Politeknik Kesehatan Kementerian Kesehatan Bengkulu',
+      
+      eprofilTitle: 'E-Profil Kabupaten Seluma',
+      eprofilDescription: 'Sistem informasi profil daerah untuk Kabupaten Seluma',
+      
+      simpegTitle: 'SIMPEG MAN IC Bengkulu Tengah',
+      simpegDescription: 'Sistem informasi kepegawaian untuk Madrasah Aliyah Negeri Insan Cendekia',
+      
+      sintaTitle: 'Sinta Hormat Polri',
+      sintaDescription: 'Sistem honorarium untuk Kepolisian Daerah Bengkulu',
+      
+      bpkTitle: 'Sistem Informasi Pemeriksaan BPK RI',
+      bpkDescription: 'Sistem informasi pemeriksaan untuk Badan Pemeriksa Keuangan Republik Indonesia',
+      
+      // Organizations missing keys
+      educationDivisionMember: 'Anggota Divisi Pendidikan',
+      headOfInformationCommunicationDivision: 'Kepala Divisi Informasi dan Komunikasi',
+      treasurerResearchTechnology: 'Bendahara Penelitian dan Teknologi',
+      headOfITCommunicationDivision: 'Kepala Divisi Teknologi Informasi dan Komunikasi',
+      memberOfITCommunicationDivision: 'Anggota Divisi Teknologi Informasi dan Komunikasi',
+      
+      // WhatsApp translations
+      whatsapp: 'WhatsApp',
+      chatDirectly: 'Chat saya langsung',
+      openWhatsApp: 'Buka WhatsApp',
+      
+      // CTA Buttons
+      startProject: 'Mulai Proyek',
+      viewPortfolio: 'Lihat Portfolio',
+      
+      // Statistics
+      sixPlus: '6+',
+      yearsExperience: 'Tahun Pengalaman',
+      fiftyPlus: '50+',
+      projectsCompleted: 'Proyek Selesai',
+      oneHundredPercent: '100%',
+      clientSatisfaction: 'Kepuasan Klien'
     }
   };
   
@@ -352,6 +608,15 @@
   // Function to apply translations
   function applyTranslations(lang) {
     const langData = languages[lang];
+    
+    // Update all texts with data-translate attribute FIRST
+    const allTranslatableElements = document.querySelectorAll('[data-translate]');
+    allTranslatableElements.forEach(element => {
+      const key = element.getAttribute('data-translate');
+      if (langData[key]) {
+        element.textContent = langData[key];
+      }
+    });
     
     // Update navigation
     document.querySelectorAll('a[href="#about"]').forEach(el => el.textContent = langData.about);
@@ -451,15 +716,6 @@
       firstExperienceBullets[2].textContent = langData.tailwindImplementation;
     }
     
-    // Update all texts with data-translate attribute
-    const allTranslatableElements = document.querySelectorAll('[data-translate]');
-    allTranslatableElements.forEach(element => {
-      const key = element.getAttribute('data-translate');
-      if (langData[key]) {
-        element.textContent = langData[key];
-      }
-    });
-    
     const achievementsHeader = document.querySelector('#achievements h2');
     if (achievementsHeader) achievementsHeader.textContent = langData.organizationsAwards;
     
@@ -498,20 +754,8 @@
     const iprDescription = document.querySelector('#ipr .text-center p');
     if (iprDescription) iprDescription.textContent = langData.iprDescription;
     
-    // Update Projects section content
-    const projectTitles = document.querySelectorAll('#projects h3');
-    if (projectTitles.length >= 3) {
-      projectTitles[0].textContent = langData.remunerationSystem;
-      projectTitles[1].textContent = langData.researchSystem;
-      projectTitles[2].textContent = langData.communitySystem;
-    }
-    
-    const projectDescriptions = document.querySelectorAll('#projects .text-slate-600');
-    if (projectDescriptions.length >= 3) {
-      projectDescriptions[0].textContent = langData.remunerationDescription;
-      projectDescriptions[1].textContent = langData.researchDescription;
-      projectDescriptions[2].textContent = langData.communityDescription;
-    }
+    // Projects section content is now handled by data-translate attributes
+    // Remove this manual mapping as it causes conflicts
     
     // Update job titles and other texts
     const fullStackWebDeveloper = document.querySelector('#certificates h3');
@@ -755,138 +999,7 @@
     updateActiveNav(); // Initial call
   }
 
-  // Project modal functionality
-  function initProjectModal() {
-    const modal = document.getElementById('projectModal');
-    const modalContent = document.getElementById('modalContent');
-    
-    if (!modal || !modalContent) return;
-
-    const projectData = {
-      project1: {
-        title: 'Sistem Informasi Remunerasi',
-        description: 'Sistem informasi untuk manajemen remunerasi dosen dan tenaga kependidikan di Poltekkes Kemenkes Bengkulu. Aplikasi ini mengelola perhitungan gaji, tunjangan, dan laporan keuangan secara terintegrasi.',
-        features: [
-          'Manajemen data dosen dan tenaga kependidikan',
-          'Perhitungan remunerasi otomatis',
-          'Laporan keuangan terintegrasi',
-          'Dashboard admin yang informatif',
-          'Sistem notifikasi real-time'
-        ],
-        tech: ['Laravel', 'Vue.js', 'MySQL', 'Bootstrap', 'jQuery'],
-        image: 'assets/img/project-1.jpg',
-        liveUrl: '#',
-        challenges: 'Mengintegrasikan berbagai komponen perhitungan remunerasi yang kompleks dengan sistem database yang robust.',
-        solutions: 'Menggunakan Laravel untuk backend yang scalable, Vue.js untuk frontend yang responsif, dan implementasi caching untuk performa optimal.'
-      },
-      project2: {
-        title: 'Sistem Informasi Penelitian',
-        description: 'Sistem informasi untuk manajemen penelitian dan evaluasi dosen di Universitas Bengkulu. Aplikasi ini memudahkan proses pengajuan, monitoring, dan evaluasi penelitian dosen.',
-        features: [
-          'Pengajuan proposal penelitian online',
-          'Monitoring progress penelitian',
-          'Sistem evaluasi dan penilaian',
-          'Laporan penelitian terintegrasi',
-          'Dashboard untuk dosen dan admin'
-        ],
-        tech: ['CodeIgniter', 'jQuery', 'Bootstrap', 'MySQL', 'PHP'],
-        image: 'assets/img/project-2.jpg',
-        liveUrl: '#',
-        challenges: 'Membangun sistem yang dapat mengelola workflow penelitian dari proposal hingga laporan akhir dengan berbagai status dan approval.',
-        solutions: 'Menggunakan CodeIgniter untuk struktur MVC yang rapi, implementasi state machine untuk workflow, dan sistem notifikasi email otomatis.'
-      },
-      project3: {
-        title: 'Sistem Informasi Masyarakat',
-        description: 'Sistem informasi untuk layanan masyarakat di DPRD Kabupaten Kepahiang. Aplikasi ini memudahkan masyarakat mengakses informasi dan layanan DPRD secara online.',
-        features: [
-          'Informasi kegiatan DPRD',
-          'Layanan pengaduan online',
-          'Tracking status pengaduan',
-          'Berita dan pengumuman',
-          'Kontak dan lokasi DPRD'
-        ],
-        tech: ['Laravel', 'Vue.js', 'Tailwind CSS', 'MySQL', 'PHP'],
-        image: 'assets/img/project-3.jpg',
-        liveUrl: '#',
-        challenges: 'Membangun sistem yang user-friendly untuk masyarakat dengan berbagai tingkat literasi digital dan kebutuhan informasi yang beragam.',
-        solutions: 'Menggunakan Laravel untuk backend yang robust, Vue.js untuk frontend yang interaktif, dan desain responsif dengan Tailwind CSS.'
-      }
-    };
-
-    window.openProjectModal = function(projectId) {
-      const project = projectData[projectId];
-      if (!project) return;
-
-      modalContent.innerHTML = `
-        <div class="grid md:grid-cols-2 gap-8">
-          <div>
-            <img src="${project.image}" alt="${project.title}" class="w-full rounded-lg shadow-lg" />
-          </div>
-          <div>
-            <h2 class="text-3xl font-bold text-slate-900 dark:text-slate-100 mb-4">${project.title}</h2>
-            <p class="text-slate-600 dark:text-slate-300 leading-relaxed mb-6">${project.description}</p>
-            
-            <div class="mb-6">
-              <h3 class="text-lg font-semibold text-slate-900 dark:text-slate-100 mb-3">Key Features</h3>
-              <ul class="space-y-2">
-                ${project.features.map(feature => `<li class="flex items-center gap-2 text-slate-600 dark:text-slate-300"><div class="w-2 h-2 bg-primary-500 rounded-full"></div>${feature}</li>`).join('')}
-              </ul>
-            </div>
-
-            <div class="mb-6">
-              <h3 class="text-lg font-semibold text-slate-900 dark:text-slate-100 mb-3">Technologies Used</h3>
-              <div class="flex flex-wrap gap-2">
-                ${project.tech.map(tech => `<span class="bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 px-3 py-1 rounded-full text-sm">${tech}</span>`).join('')}
-              </div>
-            </div>
-
-            <div class="mb-6">
-              <h3 class="text-lg font-semibold text-slate-900 dark:text-slate-100 mb-3">Challenges & Solutions</h3>
-              <div class="space-y-3">
-                <div>
-                  <h4 class="font-medium text-slate-900 dark:text-slate-100">Challenge:</h4>
-                  <p class="text-slate-600 dark:text-slate-300 text-sm">${project.challenges}</p>
-                </div>
-                <div>
-                  <h4 class="font-medium text-slate-900 dark:text-slate-100">Solution:</h4>
-                  <p class="text-slate-600 dark:text-slate-300 text-sm">${project.solutions}</p>
-                </div>
-              </div>
-            </div>
-
-            <div class="flex gap-3">
-              <a href="${project.liveUrl}" target="_blank" rel="noopener" class="inline-flex items-center gap-2 bg-primary-600 hover:bg-primary-700 text-white px-6 py-3 rounded-lg font-medium transition-colors">
-                <svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
-                Live Demo
-              </a>
-            </div>
-          </div>
-        </div>
-      `;
-
-      modal.classList.remove('hidden');
-      document.body.style.overflow = 'hidden';
-    };
-
-    window.closeProjectModal = function() {
-      modal.classList.add('hidden');
-      document.body.style.overflow = '';
-    };
-
-    // Close modal on backdrop click
-    modal.addEventListener('click', (e) => {
-      if (e.target === modal) {
-        closeProjectModal();
-      }
-    });
-
-    // Close modal on escape key
-    document.addEventListener('keydown', (e) => {
-      if (e.key === 'Escape' && !modal.classList.contains('hidden')) {
-        closeProjectModal();
-      }
-    });
-  }
+  // Old project modal function removed - using enhanced version
 
   // Copy to clipboard functionality
   function initCopyToClipboard() {
@@ -921,12 +1034,534 @@
     }, 3000);
   }
 
+  // Portfolio filtering and search functionality
+  function initPortfolioFiltering() {
+    const searchInput = document.getElementById('projectSearch');
+    const filterButtons = document.querySelectorAll('.filter-btn');
+    const projectCards = document.querySelectorAll('.project-card');
+    
+    let currentFilter = 'all';
+    let currentSearch = '';
+
+    // Search functionality
+    if (searchInput) {
+      searchInput.addEventListener('input', (e) => {
+        currentSearch = e.target.value.toLowerCase();
+        filterProjects();
+      });
+    }
+
+    // Filter functionality
+    filterButtons.forEach(button => {
+      button.addEventListener('click', () => {
+        // Remove active class from all buttons
+        filterButtons.forEach(btn => {
+          btn.classList.remove('active', 'bg-primary-100', 'dark:bg-primary-900/30', 'text-primary-700', 'dark:text-primary-300');
+          btn.classList.add('bg-slate-100', 'dark:bg-slate-800', 'text-slate-700', 'dark:text-slate-300');
+        });
+        
+        // Add active class to clicked button
+        button.classList.add('active', 'bg-primary-100', 'dark:bg-primary-900/30', 'text-primary-700', 'dark:text-primary-300');
+        button.classList.remove('bg-slate-100', 'dark:bg-slate-800', 'text-slate-700', 'dark:text-slate-300');
+        
+        currentFilter = button.getAttribute('data-filter');
+        filterProjects();
+      });
+    });
+
+    function filterProjects() {
+      projectCards.forEach(card => {
+        const projectName = card.getAttribute('data-project-name')?.toLowerCase() || '';
+        const technologies = card.getAttribute('data-technologies')?.toLowerCase() || '';
+        const category = card.getAttribute('data-category')?.toLowerCase() || '';
+        const year = card.getAttribute('data-year') || '';
+        
+        let showCard = true;
+        
+        // Search filter
+        if (currentSearch) {
+          const searchTerms = projectName + ' ' + technologies + ' ' + category;
+          console.log('Searching for:', currentSearch);
+          console.log('In card:', projectName);
+          console.log('Full search terms:', searchTerms);
+          showCard = searchTerms.includes(currentSearch);
+          console.log('Show card:', showCard);
+        }
+        
+        // Category filter
+        if (showCard && currentFilter !== 'all') {
+          switch (currentFilter) {
+            case 'laravel':
+              showCard = technologies.includes('laravel');
+              break;
+            case 'vue':
+              showCard = technologies.includes('vue');
+              break;
+            case 'government':
+              showCard = category.includes('government');
+              break;
+            case 'recent':
+              showCard = ['2024', '2025'].includes(year);
+              break;
+          }
+        }
+        
+        // Show/hide card with animation
+        if (showCard) {
+          card.style.display = 'block';
+          setTimeout(() => {
+            card.style.opacity = '1';
+            card.style.transform = 'scale(1)';
+          }, 10);
+        } else {
+          card.style.opacity = '0';
+          card.style.transform = 'scale(0.8)';
+          setTimeout(() => {
+            card.style.display = 'none';
+          }, 300);
+        }
+      });
+      
+      // Update project count
+      updateProjectCount();
+    }
+    
+    function updateProjectCount() {
+      const visibleCards = Array.from(projectCards).filter(card => 
+        card.style.display !== 'none'
+      );
+      
+      // You can add a project counter display here if needed
+      console.log(`Showing ${visibleCards.length} of ${projectCards.length} projects`);
+    }
+  }
+
+  // Enhanced project modal functionality
+  function initEnhancedProjectModal() {
+    const modal = document.getElementById('projectModal');
+    const modalContent = document.getElementById('modalContent');
+    
+    if (!modal || !modalContent) {
+      console.error('Modal elements not found! Modal:', modal, 'ModalContent:', modalContent);
+      return;
+    }
+    
+    console.log('Enhanced project modal initialized successfully');
+
+    const projectData = {
+      bpk: {
+        title: 'Sistem Informasi Pemeriksaan BPK RI',
+        subtitle: 'The Audit Board Of Indonesia Information System',
+        description: 'Sistem informasi pemeriksaan komprehensif untuk Badan Pemeriksa Keuangan Republik Indonesia yang mengelola seluruh proses audit negara dengan teknologi modern dan keamanan tinggi.',
+        features: [
+          'Manajemen audit negara terintegrasi',
+          'Workflow pemeriksaan multi-level',
+          'Dashboard real-time monitoring',
+          'Sistem pelaporan audit otomatis',
+          'Security & compliance framework',
+          'Data analytics dan insights'
+        ],
+        tech: ['Vue.js', 'C#', 'SQL Server', '.NET Framework', 'Azure'],
+        image: '/api/placeholder/800/600',
+        gallery: [
+          '/api/placeholder/800/600',
+          '/api/placeholder/800/600'
+        ],
+        liveUrl: '#',
+        githubUrl: null,
+        duration: '18 months',
+        team: '8 developers',
+        challenges: 'Membangun sistem audit negara dengan kompleksitas tinggi, keamanan berlapis, dan integrasi dengan berbagai sistem pemerintah yang ada.',
+        solutions: 'Menggunakan arsitektur microservices dengan Vue.js frontend dan C# backend, implementasi security framework berlapis, dan integration layer untuk sistem legacy.',
+        impact: 'Meningkatkan efisiensi proses audit negara sebesar 45%, mengurangi waktu pemeriksaan, dan meningkatkan transparansi audit pemerintah.',
+        category: 'Government & National Audit'
+      },
+      bdaru: {
+        title: 'Museum Digital Balai Adat Rajo Penghulu',
+        subtitle: 'Cultural Heritage Preservation Platform',
+        description: 'Sistem museum digital untuk preservasi budaya tradisional Bengkulu dengan 3 peran pengguna: admin untuk manajemen konten, pengelola untuk kurasi koleksi, dan visitor untuk eksplorasi budaya.',
+        features: [
+          'Katalog digital artefak budaya',
+          'Virtual tour museum interaktif',
+          'Manajemen koleksi multimedia',
+          'Sistem edukasi budaya online',
+          'Dashboard pengelola museum',
+          'Multi-language support'
+        ],
+        tech: ['Laravel', 'Vue.js', 'MySQL', 'Tailwind CSS', 'WebGL'],
+        image: 'assets/img/bdaru/bdaru1.png',
+        gallery: [
+          'assets/img/bdaru/bdaru1.png',
+          'assets/img/bdaru/bdaru2.png',
+          'assets/img/bdaru/bdaru3.png',
+          'assets/img/bdaru/bdaru4.png'
+        ],
+        liveUrl: 'http://bdarubengkulu.org/',
+        githubUrl: null,
+        duration: '3 months',
+        team: '1 developer',
+        challenges: 'Membangun platform yang dapat melestarikan budaya tradisional dalam format digital dengan user experience yang menarik untuk berbagai kalangan.',
+        solutions: 'Menggunakan Laravel untuk backend yang robust, Vue.js untuk frontend interaktif, dan desain responsif untuk aksesibilitas optimal.',
+        impact: 'Meningkatkan awareness budaya Bengkulu sebesar 40% dan menarik 500+ pengunjung digital per bulan.',
+        category: 'Cultural Heritage & Government'
+      },
+      siami: {
+        title: 'SIAMI LPMPP UNIB',
+        subtitle: 'Internal Quality Audit Information System',
+        description: 'Sistem Informasi Audit Mutu Internal yang memfasilitasi proses audit internal dengan 3 user roles: auditee (program studi), auditor, dan administrator untuk menjamin kualitas akademik.',
+        features: [
+          'Manajemen jadwal audit internal',
+          'Sistem pelaporan audit digital',
+          'Tracking status audit real-time',
+          'Dashboard evaluasi mutu',
+          'Dokumentasi temuan audit',
+          'Automated notifications'
+        ],
+        tech: ['Laravel', 'Vue.js', 'MySQL', 'Bootstrap', 'Chart.js'],
+        image: 'assets/img/siami/siami1.png',
+        gallery: [
+          'assets/img/siami/siami1.png',
+          'assets/img/siami/Screenshot 2025-07-05 at 13.40.55.png'
+        ],
+        liveUrl: 'https://sintamu.unib.ac.id/',
+        githubUrl: null,
+        duration: '4 months',
+        team: '2 developers',
+        challenges: 'Mengembangkan sistem yang dapat mengelola kompleksitas proses audit mutu internal dengan workflow yang jelas dan dokumentasi yang komprehensif.',
+        solutions: 'Implementasi role-based access control, automated workflow management, dan comprehensive audit trail untuk transparansi proses.',
+        impact: 'Mengurangi waktu proses audit sebesar 60% dan meningkatkan akurasi laporan audit sebesar 85%.',
+        category: 'Education & Quality Assurance'
+      },
+      eberes: {
+        title: 'E-Beres FISIP UNIB',
+        subtitle: 'Comprehensive Administrative System',
+        description: 'Sistem administrasi terpadu untuk Fakultas Ilmu Sosial dan Politik yang mengelola permohonan surat, buku tamu digital, dan penjadwalan mata kuliah secara terintegrasi.',
+        features: [
+          'Pengajuan surat online (cuti, izin, dll)',
+          'Buku tamu digital terintegrasi',
+          'Sistem penjadwalan mata kuliah',
+          'Tracking status permohonan',
+          'Dashboard admin fakultas',
+          'Automated notifications'
+        ],
+        tech: ['Laravel', 'Vue.js', 'Tailwind CSS', 'MySQL'],
+        image: 'assets/img/e-beres/screencapture-e-beres-fisip-unib-ac-id-2025-08-16-21_51_26.png',
+        gallery: [
+          'assets/img/e-beres/screencapture-e-beres-fisip-unib-ac-id-2025-08-16-21_51_26.png'
+        ],
+        liveUrl: 'https://e-beres.fisip.unib.ac.id/',
+        githubUrl: null,
+        duration: '5 months',
+        team: '2 developers',
+        challenges: 'Mengintegrasikan berbagai sistem administrasi fakultas yang sebelumnya manual menjadi satu platform digital yang efisien.',
+        solutions: 'Menggunakan modular architecture dengan Laravel, Vue.js untuk SPA experience, dan automated notification system.',
+        impact: 'Mengurangi waktu proses administrasi sebesar 70% dan meningkatkan efisiensi layanan fakultas.',
+        category: 'Education & Administration'
+      },
+      koperasi: {
+        title: 'Koperasi Amanah Sejati',
+        subtitle: 'Cooperative Management System',
+        description: 'Sistem manajemen koperasi komprehensif yang mengelola distribusi keuangan masuk dan keluar, hingga pembagian Sisa Hasil Usaha (SHU) kepada anggota koperasi.',
+        features: [
+          'Manajemen keanggotaan koperasi',
+          'Pencatatan transaksi keuangan',
+          'Perhitungan SHU otomatis',
+          'Laporan keuangan real-time',
+          'Dashboard monitoring usaha',
+          'Financial reporting'
+        ],
+        tech: ['Laravel', 'Bootstrap', 'MySQL', 'jQuery'],
+        image: 'assets/img/koperasi/screencapture-koperasiamanahsejatikotabengkulu-co-id-2025-08-16-21_49_05.png',
+        gallery: [
+          'assets/img/koperasi/screencapture-koperasiamanahsejatikotabengkulu-co-id-2025-08-16-21_49_05.png',
+          'assets/img/koperasi/Screenshot 2025-08-16 at 21.50.03.png',
+          'assets/img/koperasi/Screenshot 2025-08-16 at 21.50.27.png'
+        ],
+        liveUrl: 'https://koperasiamanahsejatikotabengkulu.co.id/',
+        githubUrl: null,
+        duration: '6 months',
+        team: '1 developer',
+        challenges: 'Mengembangkan sistem akuntansi koperasi yang akurat dengan perhitungan SHU yang kompleks sesuai dengan aturan perkoperasian.',
+        solutions: 'Implementasi double-entry bookkeeping system, automated SHU calculation, dan comprehensive financial reporting.',
+        impact: 'Meningkatkan transparansi keuangan koperasi dan mempercepat proses pembagian SHU kepada anggota.',
+        category: 'Finance & Cooperative'
+      },
+      labagro: {
+        title: 'Lab Agronomi UNIB',
+        subtitle: 'Laboratory Equipment Management System',
+        description: 'Sistem peminjaman alat laboratorium untuk Jurusan Agronomi Universitas Bengkulu yang mengelola inventori, jadwal peminjaman, dan maintenance peralatan lab.',
+        features: [
+          'Katalog peralatan laboratorium',
+          'Sistem booking dan reservasi',
+          'Tracking status peminjaman',
+          'Manajemen maintenance alat',
+          'Laporan penggunaan lab',
+          'QR Code integration'
+        ],
+        tech: ['Laravel', 'Bootstrap', 'MySQL', 'jQuery'],
+        image: 'assets/img/lab agronomi/screencapture-labagro-fp-unib-ac-id-2025-08-16-21_55_50.png',
+        gallery: [
+          'assets/img/lab agronomi/screencapture-labagro-fp-unib-ac-id-2025-08-16-21_55_50.png'
+        ],
+        liveUrl: 'https://labagro.fp.unib.ac.id/',
+        githubUrl: null,
+        duration: '4 months',
+        team: '1 developer',
+        challenges: 'Mengelola inventori peralatan laboratorium yang kompleks dengan sistem peminjaman yang efisien dan tracking yang akurat.',
+        solutions: 'Menggunakan QR code system untuk tracking, automated reminder system, dan comprehensive equipment management.',
+        impact: 'Meningkatkan efisiensi penggunaan alat lab sebesar 50% dan mengurangi kehilangan peralatan.',
+        category: 'Education & Laboratory'
+      },
+      prisma: {
+        title: 'PRISMA UNIB',
+        subtitle: 'Research & Community Service Information System',
+        description: 'Sistem Informasi Publikasi, Riset dan Pengabdian Kepada Masyarakat yang mengelola seluruh workflow dari pengajuan proposal hingga laporan akhir dengan sistem reviewer terintegrasi.',
+        features: [
+          'Pengajuan proposal online',
+          'Sistem review dan penilaian',
+          'Ranking berdasarkan nilai tertinggi',
+          'Proses revisi proposal digital',
+          'Manajemen pendanaan dan realisasi',
+          'Automated workflow'
+        ],
+        tech: ['CodeIgniter', 'jQuery', 'Bootstrap', 'MySQL'],
+        image: 'assets/img/prisma/screencapture-prismalppm-unib-ac-id-2025-08-16-21_59_03.png',
+        gallery: [
+          'assets/img/prisma/screencapture-prismalppm-unib-ac-id-2025-08-16-21_59_03.png'
+        ],
+        liveUrl: 'https://prismalppm.unib.ac.id/',
+        githubUrl: null,
+        duration: '8 months',
+        team: '2 developers',
+        challenges: 'Membangun sistem yang dapat mengelola kompleksitas workflow penelitian dan pengabdian dengan multiple stakeholder dan approval levels.',
+        solutions: 'Implementasi state machine untuk workflow management, automated scoring system, dan comprehensive project tracking.',
+        impact: 'Mempercepat proses seleksi proposal sebesar 65% dan meningkatkan transparansi penilaian penelitian.',
+        category: 'Education & Research'
+      },
+      siepel: {
+        title: 'SIEPEL UNIB',
+        subtitle: 'Lecturer Performance Evaluation System',
+        description: 'Sistem Informasi Penilaian Kinerja Dosen yang mengevaluasi performa dosen di lingkungan Universitas Bengkulu dengan multiple criteria dan automated reporting.',
+        features: [
+          'Evaluasi kinerja dosen multi-kriteria',
+          'Dashboard performa individual',
+          'Sistem pelaporan otomatis',
+          'Analytics dan insights',
+          'Manajemen periode evaluasi',
+          'Data visualization'
+        ],
+        tech: ['CodeIgniter', 'jQuery', 'MySQL', 'Chart.js'],
+        image: 'assets/img/siepel/Screenshot 2025-08-16 at 21.59.54.png',
+        gallery: [
+          'assets/img/siepel/Screenshot 2025-08-16 at 21.59.54.png',
+          'assets/img/siepel/Screenshot 2025-08-16 at 22.00.01.png'
+        ],
+        liveUrl: 'https://siepel.unib.ac.id/',
+        githubUrl: null,
+        duration: '6 months',
+        team: '2 developers',
+        challenges: 'Mengembangkan sistem evaluasi yang fair dan objektif dengan multiple assessment criteria dan comprehensive analytics.',
+        solutions: 'Menggunakan weighted scoring algorithm, data visualization untuk insights, dan automated report generation.',
+        impact: 'Meningkatkan objektivitas penilaian dosen dan mempercepat proses evaluasi tahunan.',
+        category: 'Education & Performance'
+      },
+      rumahilmu: {
+        title: 'Adaptif E-Learning Rumah Ilmu',
+        subtitle: 'Comprehensive Learning Management System',
+        description: 'Platform pembelajaran online komprehensif yang mengelola seluruh proses pembelajaran dari enrollment hingga sertifikasi dengan adaptive learning system.',
+        features: [
+          'Manajemen kursus dan materi',
+          'Video conferencing terintegrasi',
+          'Assessment dan quiz engine',
+          'Progress tracking siswa',
+          'Sertifikasi digital otomatis',
+          'Adaptive learning algorithm'
+        ],
+        tech: ['Laravel', 'Vue.js', 'Bootstrap', 'MySQL', 'WebRTC'],
+        image: 'assets/img/adaptif/screencapture-rumahilmu-org-.textClipping',
+        gallery: [
+          'assets/img/adaptif/screencapture-rumahilmu-org-.textClipping'
+        ],
+        liveUrl: 'https://rumahilmu.org/',
+        githubUrl: null,
+        duration: '10 months',
+        team: '3 developers',
+        challenges: 'Membangun platform e-learning yang scalable dengan fitur adaptive learning dan comprehensive content management.',
+        solutions: 'Menggunakan microservices architecture, real-time communication dengan WebRTC, dan AI-powered learning recommendations.',
+        impact: 'Melayani 1000+ pengguna aktif dengan tingkat completion rate 85% untuk kursus online.',
+        category: 'Education & E-Learning'
+      }
+    };
+
+    window.openProjectModal = function(projectId) {
+      console.log('Opening enhanced modal for project:', projectId);
+      const project = projectData[projectId];
+      if (!project) {
+        console.error('Project data not found for:', projectId);
+        return;
+      }
+      console.log('Project data found:', project);
+
+      modalContent.innerHTML = `
+        <div class="space-y-8">
+          <!-- Header -->
+          <div class="text-center border-b border-slate-200 dark:border-slate-700 pb-6">
+            <div class="inline-flex items-center gap-2 bg-primary-100 dark:bg-primary-900/30 text-primary-700 dark:text-primary-300 px-3 py-1 rounded-full text-sm font-medium mb-4">
+              ${project.category}
+            </div>
+            <h1 class="text-3xl md:text-4xl font-bold text-slate-900 dark:text-slate-100 mb-2">${project.title}</h1>
+            <p class="text-lg text-slate-600 dark:text-slate-400">${project.subtitle}</p>
+          </div>
+
+          <div class="grid lg:grid-cols-2 gap-8">
+            <!-- Image Gallery -->
+            <div class="space-y-4">
+              <img src="${project.image}" alt="${project.title}" class="w-full rounded-2xl shadow-lg" />
+              ${project.gallery && project.gallery.length > 1 ? `
+                <div class="grid grid-cols-3 gap-2">
+                  ${project.gallery.slice(1, 4).map(img => `
+                    <img src="${img}" alt="${project.title}" class="w-full aspect-video object-cover rounded-lg opacity-70 hover:opacity-100 transition-opacity cursor-pointer" />
+                  `).join('')}
+                </div>
+              ` : ''}
+            </div>
+
+            <!-- Project Details -->
+            <div class="space-y-6">
+              <div>
+                <h3 class="text-xl font-semibold text-slate-900 dark:text-slate-100 mb-3">Project Overview</h3>
+                <p class="text-slate-600 dark:text-slate-300 leading-relaxed">${project.description}</p>
+              </div>
+
+              <!-- Project Stats -->
+              <div class="grid grid-cols-2 gap-4">
+                <div class="bg-slate-50 dark:bg-slate-800/50 p-4 rounded-xl">
+                  <div class="text-sm text-slate-500 dark:text-slate-400">Duration</div>
+                  <div class="font-semibold text-slate-900 dark:text-slate-100">${project.duration}</div>
+                </div>
+                <div class="bg-slate-50 dark:bg-slate-800/50 p-4 rounded-xl">
+                  <div class="text-sm text-slate-500 dark:text-slate-400">Team Size</div>
+                  <div class="font-semibold text-slate-900 dark:text-slate-100">${project.team}</div>
+                </div>
+              </div>
+
+              <!-- Technologies -->
+              <div>
+                <h3 class="text-lg font-semibold text-slate-900 dark:text-slate-100 mb-3">Technologies Used</h3>
+                <div class="flex flex-wrap gap-2">
+                  ${project.tech.map(tech => `
+                    <span class="bg-gradient-to-r from-primary-100 to-fuchsia-100 dark:from-primary-900/30 dark:to-fuchsia-900/30 text-primary-700 dark:text-primary-300 px-3 py-1 rounded-full text-sm font-medium">
+                      ${tech}
+                    </span>
+                  `).join('')}
+                </div>
+              </div>
+
+              <!-- Actions -->
+              <div class="flex gap-3 pt-4">
+                <a href="${project.liveUrl}" target="_blank" rel="noopener" class="flex-1 inline-flex items-center justify-center gap-2 bg-gradient-to-r from-primary-600 to-fuchsia-600 hover:from-primary-700 hover:to-fuchsia-700 text-white px-6 py-3 rounded-xl font-medium transition-all duration-300 hover:scale-105 hover:shadow-lg">
+                  <svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+                  Live Demo
+                </a>
+                ${project.githubUrl ? `
+                  <a href="${project.githubUrl}" target="_blank" rel="noopener" class="inline-flex items-center gap-2 border border-slate-300 dark:border-slate-600 hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 dark:text-slate-300 px-6 py-3 rounded-xl font-medium transition-all duration-300 hover:scale-105">
+                    <svg class="h-4 w-4" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+                    GitHub
+                  </a>
+                ` : ''}
+              </div>
+            </div>
+          </div>
+
+          <!-- Key Features -->
+          <div>
+            <h3 class="text-xl font-semibold text-slate-900 dark:text-slate-100 mb-4">Key Features</h3>
+            <div class="grid md:grid-cols-2 gap-3">
+              ${project.features.map(feature => `
+                <div class="flex items-center gap-3 p-3 bg-slate-50 dark:bg-slate-800/50 rounded-xl">
+                  <div class="w-2 h-2 bg-gradient-to-r from-primary-500 to-fuchsia-500 rounded-full"></div>
+                  <span class="text-slate-700 dark:text-slate-300">${feature}</span>
+                </div>
+              `).join('')}
+            </div>
+          </div>
+
+          <!-- Challenge & Solution -->
+          <div class="grid md:grid-cols-2 gap-6">
+            <div class="p-6 bg-gradient-to-br from-red-50 to-orange-50 dark:from-red-950/20 dark:to-orange-950/20 rounded-2xl">
+              <h4 class="font-semibold text-red-900 dark:text-red-300 mb-3 flex items-center gap-2">
+                <svg class="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.964-.833-2.732 0L4.082 16.5c-.77.833.192 2.5 1.732 2.5z"/></svg>
+                Challenge
+              </h4>
+              <p class="text-red-800 dark:text-red-200 text-sm leading-relaxed">${project.challenges}</p>
+            </div>
+            <div class="p-6 bg-gradient-to-br from-green-50 to-emerald-50 dark:from-green-950/20 dark:to-emerald-950/20 rounded-2xl">
+              <h4 class="font-semibold text-green-900 dark:text-green-300 mb-3 flex items-center gap-2">
+                <svg class="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+                Solution
+              </h4>
+              <p class="text-green-800 dark:text-green-200 text-sm leading-relaxed">${project.solutions}</p>
+            </div>
+          </div>
+
+          <!-- Impact -->
+          ${project.impact ? `
+            <div class="p-6 bg-gradient-to-r from-blue-50 to-indigo-50 dark:from-blue-950/20 dark:to-indigo-950/20 rounded-2xl">
+              <h4 class="font-semibold text-blue-900 dark:text-blue-300 mb-3 flex items-center gap-2">
+                <svg class="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"/></svg>
+                Project Impact
+              </h4>
+              <p class="text-blue-800 dark:text-blue-200">${project.impact}</p>
+            </div>
+          ` : ''}
+        </div>
+      `;
+
+      modal.classList.remove('hidden');
+      document.body.style.overflow = 'hidden';
+      
+      // Add entrance animation
+      setTimeout(() => {
+        modal.querySelector('.relative').style.transform = 'scale(1)';
+        modal.querySelector('.relative').style.opacity = '1';
+      }, 10);
+    };
+
+    // Rest of modal functionality remains the same
+    window.closeProjectModal = function() {
+      console.log('Closing enhanced modal');
+      const modalInner = modal.querySelector('.relative');
+      modalInner.style.transform = 'scale(0.95)';
+      modalInner.style.opacity = '0';
+      
+      setTimeout(() => {
+        modal.classList.add('hidden');
+        document.body.style.overflow = '';
+      }, 300);
+    };
+
+    // Close modal on backdrop click
+    modal.addEventListener('click', (e) => {
+      if (e.target === modal) {
+        closeProjectModal();
+      }
+    });
+
+    // Close modal on escape key
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && !modal.classList.contains('hidden')) {
+        closeProjectModal();
+      }
+    });
+  }
+
   // Initialize all functionality
   function init() {
     initTypingAnimation();
     initScrollspy();
-    initProjectModal();
+    initEnhancedProjectModal();
     initCopyToClipboard();
+    initPortfolioFiltering();
   }
 
   // Footer year
